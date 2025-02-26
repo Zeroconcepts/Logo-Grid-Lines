@@ -68,7 +68,6 @@ function createGuideline(startX, startY, endX, endY, layer, existingLines) {
   line.setEntirePath(newLine);
   line.stroked = true;
   line.strokeWidth = 1; // Set line thickness to 1 pixel
-  line.strokeColor = doc.swatches["[RED]"].color; // Solid black color
   line.filled = false; // Ensure there is no fill
 }
 
